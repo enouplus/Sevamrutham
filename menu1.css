@@ -1,0 +1,40 @@
+.menu-list1-container
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+.menu-list1
+{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px #e1e1e1;
+    width: 100%;
+    margin: 2rem;
+}
+
+.menu-list1>a
+{   
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.menu-list1>a>img
+{
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+}
+.menu-list1>a>div
+{
+    padding: 0.5rem;
+}
+
+.menu-list1>a:last-child
+{
+    border-bottom: 0px solid #e1e1e1;
+}
+

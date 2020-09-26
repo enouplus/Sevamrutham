@@ -1,0 +1,39 @@
+.profile-list1-container
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+
+.profile-list1
+{
+    width: 100%;
+    margin: 1rem;
+    box-shadow: 0 0 8px #e1e1e1;
+}
+
+.profile-list1>a
+{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.user-profile
+{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.user-icon
+{
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.user-details
+{
+    margin: 1rem;
+}
